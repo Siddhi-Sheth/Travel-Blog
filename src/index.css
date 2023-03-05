@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    display:flex;
+    background-color: #F55A5A;
+    color: #FFFFFF;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav--title{
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+.nav--logo{
+    height: 24px;
+    width: 24px;
+    padding-right: 5px;
+}
+
+section {
+    background-color: #F5F7FB;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 70px;
+    text-align: left;
+    color:#2B283A;
+    /* margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 70px; 
+    border-radius: 3px; 
+    */
+}
+
+.content--info {
+    padding: 40px;
+    margin: 10px;
+    padding-left: 15px;
+}
+
+.content--img{
+    width: 25%;
+    border-radius: 10px;
+}
+.content--locimg {
+    width: 9px;
+    height: 13px;
+    margin-top: 3px;
+}
+
+.content--fav--icon{
+    width: 22px;
+    height: 24px;
+    padding-right: 9px;
+}
+
+.content--locname{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    margin-top: 0%;
+    letter-spacing: 2px;
+}
+
+.content--like{
+    display: flex;
+    text-align: left;
+    align-items:center;
+}
+
+a {
+    padding: 14px;
+    color: #918E9B;
+}
+
+h1 {
+    font-size: 32px;
+    font-style: bold;
+    padding-top: 2px;
+}
+
+h4 {
+    font-style: bold;
+    font-weight: 700;
+}
+
+p {
+    text-align: left;
+}
